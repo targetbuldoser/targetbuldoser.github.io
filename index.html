@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target's Awesome Website</title>
+    <style>
+        body
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            text-align: center;
+            background-image: url("web_bg.png");
+            background-repeat: repeat;
+            animation: scrollBackground 60s linear infinite;
+        }
+        @keyframes scrollBackground
+        {
+            0%
+            {
+                background-position: 0 0;
+            }
+            100%
+            {
+                background-position: 600px 600px;
+            }
+        }
+        h1
+        {
+            font-size: 3em;
+        }
+        h2
+        {
+            font-size: 2em;
+            margin-top: 0.5em;
+        }
+        input[type="submit"]
+        {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover
+        {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to targetbuldoser's website! (Beta)</h1>
+    <h2>Hello, I like to make websites.</h2>
+    <h3>hello. my name is targetbuldoser, but people just call me target.<br>i am an animator, artist, coder for gamemaker studio 2, and a musician (full pack).<br>i am always (never) up to help on your projects, but only if i qualified to do so before.</h3>
+    <h3></h3>
+    <form action="https://www.youtube.com/@targetbuldoser">
+        <input type="submit" value="YouTube Channel"/>
+    </form>
+    <h3></h3>
+    <form action="https://www.tiktok.com/@targetbuldoser">
+        <input type="submit" value="TikTok Account"/>
+    </form>
+    <h3></h3>
+    <form action="https://twitter.com/targetbuldoser">
+        <input type="submit" value="Twitter Account (Pretty Inactive)"/>
+    </form>
+</body>
+</html>
